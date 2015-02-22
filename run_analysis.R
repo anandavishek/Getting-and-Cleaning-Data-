@@ -67,3 +67,4 @@ agg$Activity <- factor(agg$Activity, labels=activity_labels[,2])
 
 write.table(agg, file="./Tidy_Data.txt", sep="\t", row.names=FALSE)
 
+
